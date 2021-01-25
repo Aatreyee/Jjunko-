@@ -9,7 +9,7 @@ class Bridge
             this.body = Bodies.rectangle(x,y,width,height,options);  
             this.width=width;
             this.height=height;
-            this.image=loadImage("images/bridgeLog.png");
+            this.image=loadImage("bridgeLog.png");
             World.add(world,this.body);   
     }
        display() 
